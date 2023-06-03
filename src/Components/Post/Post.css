@@ -1,0 +1,63 @@
+.post {
+	display: flex;
+	background-color: burlywood;
+	/* border: 1px solid #ccc; */
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 2em;
+  }
+  
+  .postImageContainer {
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+  }
+  
+  .postImg {
+	width: 300px;
+	height: 300px;
+	justify-content: center;
+	object-fit: cover;
+	
+  }
+  
+  .postInfo {
+	flex-grow: 1;
+	margin-left: 1em;
+  }
+  
+  .postTitle {
+	font-size: 20px;
+	font-weight: bold;
+  }
+  
+  .postAuthor {
+	font-size: 16px;
+	color: #888;
+  }
+  
+  .postDate {
+	font-size: 12px;
+	color: #888;
+  }
+  .at{
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .postDescription {
+	margin-top: 10px;
+  }
+  
+  p {
+	margin: 5px 0;
+  }
+  
+  /* hr {
+	margin: 10px 0;
+	border: none;
+	border-top: 1px solid #ccc;
+  } */
+  a {
+	text-decoration: none;
+  }

@@ -1,0 +1,12 @@
+.home {
+	display: flex;
+  }
+  
+  .posts-container {
+	flex: 9;
+  }
+  
+  .sidebar-container {
+	flex: 3;
+  }
+  
